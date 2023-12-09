@@ -53,7 +53,7 @@ class Register extends Component {
                   </label>
                   <label className="checkbox-inline">
                     <input type="checkbox" defaultValue /> &nbsp; By clicking
-                    "create account", I consent to the privacy policy.
+                    &quot;create account&quot;, I consent to the privacy policy.
                   </label>
                   <div className="btn-wrapper">
                     <button

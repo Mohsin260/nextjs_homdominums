@@ -71,8 +71,8 @@ class AboutV1 extends Component {
                 </ul>
                 <div className="ltn__callout bg-overlay-theme-05  mt-30">
                   <p>
-                    "Enimad minim veniam quis nostrud exercitation <br />
-                    llamco laboris. Lorem ipsum dolor sit amet"{" "}
+                  &quot;Enimad minim veniam quis nostrud exercitation <br />
+                    llamco laboris. Lorem ipsum dolor sit amet&quot;{" "}
                   </p>
                 </div>
                 <div className="btn-wrapper animated go-top">

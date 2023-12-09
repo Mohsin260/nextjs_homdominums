@@ -58,7 +58,7 @@ class Login extends Component {
               </div>
               <div className="col-lg-6">
                 <div className="account-create text-center pt-50">
-                  <h4>DON'T HAVE AN ACCOUNT?</h4>
+                  <h4>DON&apos;T HAVE AN ACCOUNT?</h4>
                   <p>
                     Add items to your wishlistget personalised recommendations{" "}
                     <br />

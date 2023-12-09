@@ -261,7 +261,7 @@ class FaqV1 extends Component {
               <aside className="sidebar-area ltn__right-sidebar">
                 {/* Newsletter Widget */}
                 <div className="widget ltn__search-widget ltn__newsletter-widget">
-                  <h6 className="ltn__widget-sub-title">// subscribe</h6>
+                  <h6 className="ltn__widget-sub-title">subscribe</h6>
                   <h4 className="ltn__widget-title">Get Newsletter</h4>
                   <form action="#">
                     <input type="text" name="search" placeholder="Search" />

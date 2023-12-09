@@ -16,7 +16,7 @@ class OrderTracking extends Component {
                   <p className="text-center">
                     {" "}
                     To track your order please enter your Order ID in the box
-                    below and press the "Track Order" button. This was given to
+                    below and press the &quot;Track Order&quot; button. This was given to
                     you on your receipt and in the confirmation email you should
                     have received.{" "}
                   </p>
