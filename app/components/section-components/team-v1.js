@@ -1,7 +1,7 @@
 "use client"
 
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import Link from 'next/link'
 import parse from "html-react-parser";
 
 class TeamV1 extends Component {
@@ -30,25 +30,25 @@ class TeamV1 extends Component {
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Rosalina D. William</Link>
+                    <Link href="/team-details">Rosalina D. William</Link>
                   </h4>
                   <h6 className="ltn__secondary-color">Real Estate Broker</h6>
                   <div className="ltn__social-media">
                     <ul>
                       <li>
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-facebook-f" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-twitter" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-linkedin" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -62,25 +62,25 @@ class TeamV1 extends Component {
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Kelian Anderson</Link>
+                    <Link href="/team-details">Kelian Anderson</Link>
                   </h4>
                   <h6 className="ltn__secondary-color">Selling Agents</h6>
                   <div className="ltn__social-media">
                     <ul>
                       <li>
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-facebook-f" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-twitter" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-linkedin" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -94,25 +94,25 @@ class TeamV1 extends Component {
                 </div>
                 <div className="team-info">
                   <h4>
-                    <Link to="/team-details">Miranda H. Halim</Link>
+                    <Link href="/team-details">Miranda H. Halim</Link>
                   </h4>
                   <h6 className="ltn__secondary-color">Property Seller</h6>
                   <div className="ltn__social-media">
                     <ul>
                       <li>
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-facebook-f" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-twitter" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-linkedin" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>

@@ -1,7 +1,7 @@
 "use client"
 
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import Link  from "next/link";
 import parse from "html-react-parser";
 
 class AboutV4 extends Component {
@@ -24,13 +24,13 @@ class AboutV4 extends Component {
                       src={publicUrl + "/assets/img/others/8.png"}
                       alt="video popup bg image"
                     />
-                    <a
+                    <Link
                       className="ltn__video-icon-2 ltn__video-icon-2-border---"
                       href="https://www.youtube.com/embed/X7R-q9rsrtU?autoplay=1&showinfo=0"
                       data-rel="lightcase:myCollection"
                     >
                       <i className="fa fa-play" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -75,7 +75,7 @@ class AboutV4 extends Component {
                   </p>
                 </div>
                 <div className="btn-wrapper animated">
-                  <Link to="/service" className="theme-btn-1 btn btn-effect-1">
+                  <Link href="/service" className="theme-btn-1 btn btn-effect-1">
                     OUR SERVICES
                   </Link>
                 </div>

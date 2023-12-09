@@ -8,7 +8,7 @@ import Image from "next/image";
 
 class Navbar extends Component {
   render() {
-    // let publicUrl = process.env.NEXT_PUBLIC_URL+'/'
+    let publicUrl = process.env.NEXT_PUBLIC_URL
     return (
       <div>
         <header className="ltn__header-area ltn__header-5 ltn__header-transparent--- gradient-color-4---">
@@ -86,7 +86,7 @@ class Navbar extends Component {
               </div>
             </div>
           </div>
-          <div className="ltn__header-middle-area ltn__header-sticky ltn__sticky-bg-white">
+          <div className="ltn__header-middle-area  ltn__header-sticky">
             <div className="container">
               <div className="row">
                 <div className="col">
@@ -94,10 +94,11 @@ class Navbar extends Component {
                     <div className="site-logo go-top">
                       <Link href="/">
                         <Image
-                          src={"/assets/img/logo.png"}
-                          width={170}
-                          height={43}
+                          src={publicUrl + "/assets/img/Homdominiums-Logo-05.png"}
+                          width={60}
+                          height={60}
                           alt="Logo"
+                          className="bg-red"
                         />
                       </Link>
                     </div>
