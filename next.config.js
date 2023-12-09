@@ -9,9 +9,9 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'http',
-        hostname: 'localhost',
-        port: '3000',
+        protocol: 'https',
+        hostname: 'nextjs-homdominums.vercel.app',
+        // port: '',
         pathname: '/assets/**',
       },
     ],
