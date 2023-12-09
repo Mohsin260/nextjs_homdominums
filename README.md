@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -40,3 +41,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 # homdominums_nextjs
 # homdominums_nextjs
 # homdominums_nextjs
+=======
+# nextjs_homdominums
+Next.js Template For Homdominums Site.
+>>>>>>> 68b049210ed6bd874a0e608099e277c0a3a6d824
