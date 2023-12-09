@@ -85,7 +85,7 @@ class NavbarV3 extends Component {
               </div>
             </div>
           </div>
-          <div className="ltn__header-middle-area ltn__header-sticky ltn__sticky-bg-black">
+          <div className="ltn__header-middle-area ltn__header-sticky ltn__sticky-bg-white">
             <div className="container">
               <div className="row">
                 <div className="col">
